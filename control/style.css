@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+  padding-top: 200px;
+    align-items: center;
+    background-image: url(./hero-amsterdam.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);        height: 1000px;
+    /* background-attachment: fixed;
+    background-position: center; */
+   
+
+}
+img{
+    z-index: -3;
+    /* filter: blur(0px); */
+    width: 100%;
+
+}
+form{
+ position: absolute;
+ top:50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+    /* display: flex; */
+
+    background-color: aliceblue;
+    opacity: 0.7;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+label{
+    display: block;
+
+}
+input{
+    width: 100%;
+    display: block;
+}
+button{
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    padding: 10px 20px;
+}

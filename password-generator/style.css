@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+form{
+    /* width: 20%;
+    border:  1px solid blue; */
+  margin-top: 200px;
+}
+.main_input{
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.line{
+    display: flex;
+    margin-bottom: 10px;
+}
